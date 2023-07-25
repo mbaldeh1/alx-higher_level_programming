@@ -21,6 +21,6 @@ request(url, function (err, response, body) {
     }
     console.log(completed);
   } else {
-    console.log('An error occured. Status code: ' + response.statusCode);
+    console.log('An error occurred. Status code: ' + response.statusCode);
   }
 });
